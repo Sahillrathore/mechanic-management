@@ -17,7 +17,6 @@ export default function IssueTool() {
         qty: ""
     });
 
-    // ---------- safe async effect ----------
     useEffect(() => {
         const load = async () => {
             setLoading(true);
@@ -109,7 +108,6 @@ export default function IssueTool() {
             </div>
 
 
-            {/* MECHANIC SELECT */}
             <div>
                 <label className="text-sm text-gray-600 dark:text-gray-400">
                     Select Mechanic
@@ -133,7 +131,6 @@ export default function IssueTool() {
             </div>
 
 
-            {/* QTY */}
             <div>
                 <label className="text-sm text-gray-600 dark:text-gray-400">
                     Quantity To Issue

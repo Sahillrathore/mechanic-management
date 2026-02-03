@@ -18,13 +18,11 @@ export default function AddTool() {
 
   const submit = async () => {
 
-    // ---------- category resolution ----------
     const finalCategory =
       form.category === "Other"
         ? form.customCategory.trim()
         : form.category;
 
-    // ---------- validation ----------
     if (!form.title.trim())
       return toast.error("Tool title required");
 
