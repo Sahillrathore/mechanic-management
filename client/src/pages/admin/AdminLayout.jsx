@@ -71,7 +71,7 @@ export default function AdminLayout() {
       </aside>
 
 
-      <main className="flex-1 p-8">
+      <main className="flex-1 p-8 flex justify-center w-full">
         <Routes>
           <Route path="/mechanics" element={<AddMechanic />} />
           <Route path="/tools" element={<AddTool />} />

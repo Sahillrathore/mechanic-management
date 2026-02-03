@@ -68,7 +68,7 @@ export default function AddMechanic() {
 
 
   return (
-    <div className="card max-w-xl space-y-5">
+    <div className="card w-2xl space-y-5">
 
       <h2 className="text-xl font-bold">Create Mechanic</h2>
 

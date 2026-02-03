@@ -67,7 +67,7 @@ export default function AddTool() {
 
 
   return (
-    <div className="card max-w-xl space-y-5">
+    <div className="card min-w-2xl space-y-5">
 
       <h2 className="text-xl font-bold">Add Tool</h2>
 

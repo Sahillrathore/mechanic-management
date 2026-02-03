@@ -23,7 +23,7 @@ export default function Report() {
     }
 
     return (
-        <div className="card">
+        <div className="card w-full">
             <h2 className="text-lg font-bold mb-4">Issued Report</h2>
 
             <table className="w-full">
@@ -39,12 +39,12 @@ export default function Report() {
 
                 <tbody>
                     {rows.map(r => (
-                        <tr key={r._id} className="border-t border-gray-800 hover:bg-gray-900">
-                            <td>{r.mechanic?.name}</td>
-                            <td>{r.tool?.title}</td>
-                            <td>{r.qtyIssued}</td>
-                            <td>{r.qtyReturned}</td>
-                            <td>{r.status}</td>
+                        <tr key={r._id} className="border-t py-2 border-gray-800 hover:bg-gray-900">
+                            <td className="py-1">{r.mechanic?.name}</td>
+                            <td className="py-1">{r.tool?.title}</td>
+                            <td className="py-1">{r.qtyIssued}</td>
+                            <td className="py-1">{r.qtyReturned}</td>
+                            <td className="py-1">{r.status}</td>
                         </tr>
                     ))}
                 </tbody>

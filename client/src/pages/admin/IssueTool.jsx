@@ -77,7 +77,7 @@ export default function IssueTool() {
 
 
     return (
-        <div className="card max-w-xl space-y-5">
+        <div className="card w-xl space-y-5">
 
             <h2 className="text-xl font-bold">
                 Issue Tool To Mechanic
