@@ -13,7 +13,7 @@ export default function Login() {
             const { data } = await api.post("/auth/login", form);
             localStorage.setItem("token", data.token);
             localStorage.setItem("role", data.role);
-            nav(data.role === "admin" ? "/admin" : "/mechanic/tools");
+            nav(data.role === "admin" ? "/admin/mechanics" : "/mechanic/tools");
         } catch (e) {
             setErr("Invalid credentials");
         }
